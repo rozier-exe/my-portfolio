@@ -1,4 +1,5 @@
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -43,6 +44,51 @@ main {
 
 section {
     margin-bottom: 40px;
+}
+
+#work .work-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+#work .work-list li {
+    margin: 5px 0;
+}
+
+#work .work-list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#work .work-list li a:hover {
+    color: #ddd;
+}
+
+#work .work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#work .work-gallery a {
+    display: block;
+    width: calc(33.333% - 20px);
+    text-align: center;
+}
+
+#work .work-gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+#work .work-gallery img:hover {
+    transform: scale(1.05);
 }
 
 
