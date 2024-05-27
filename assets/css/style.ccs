@@ -55,6 +55,12 @@ section {
     margin: 5px 0;
 }
 
+#work .work-list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
 #work .work-list li a:hover {
     color: #ddd;
 }
@@ -64,6 +70,12 @@ section {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+}
+
+#work .work-gallery a {
+    display: block;
+    width: calc(33.333% - 20px);
+    text-align: center;
 }
 
 #work .work-gallery img {
