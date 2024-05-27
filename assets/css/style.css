@@ -58,16 +58,16 @@ section {
     display: block;
 }
 
-#cherry blossom .project-content {
+#project1 .project-content {
     display: flex;
     align-items: flex-start;
 }
 
-#cherry blossom .video-content {
+#project1 .video-content {
     flex: 1;
     padding-right: 20px;
 }
 
-#cherry blossom .text-content {
+#project1 .text-content {
     flex: 1;
 }
