@@ -16,6 +16,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -60,14 +61,24 @@ section {
 
 #project1 .project-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+    gap: 20px;
 }
 
 #project1 .video-content {
     flex: 1;
-    padding-right: 20px;
+    min-width: 300px;
 }
 
 #project1 .text-content {
     flex: 1;
+    min-width: 300px;
+}
+
+#project1 iframe {
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+    aspect-ratio: 16/9;
 }
