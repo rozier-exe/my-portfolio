@@ -57,3 +57,17 @@ section {
     height: auto;
     display: block;
 }
+
+#cherry blossom .project-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+#cherry blossom .video-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#cherry blossom .text-content {
+    flex: 1;
+}
