@@ -46,32 +46,36 @@ section {
     margin-bottom: 40px;
 }
 
-#work .work-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 20px 0;
-}
-
-#work .work-list li {
-    margin: 5px 0;
-}
-
-#work .work-list li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-#work .work-list li a:hover {
-    color: #ddd;
-}
-
 #work .work-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
+
+#work .work-item {
+    text-align: center;
+    width: calc(33.333% - 20px);
+}
+
+#work .work-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: transform 0.3 ease;
+}
+
+#work .work-item img:hover {
+    transform: scale(1.05);
+}
+
+#work .work-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#work .work-item h3 a:hover {
+    color: #ddd;
 
 #work .work-gallery a {
     display: block;
