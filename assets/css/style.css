@@ -52,6 +52,53 @@ h1, h2 {
     margin-bottom: 40px;
 }
 
+work-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+work-item {
+    text-align: center;
+    width: calc(33.333% - 20px);
+}
+
+work-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+work-item img:hover {
+    transform: scale(1.05);
+}
+
+work-item h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+work-item h3 a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+work-item h3 a:hover {
+    color: #ddd;
+}
+
+
+
+
+
+
+
+
+
 #work .work-gallery {
     display: flex;
     flex-wrap: wrap;
