@@ -52,19 +52,19 @@ h1, h2 {
     margin-bottom: 40px;
 }
 
-work-gallery {
+gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 
-work-item {
+item {
     text-align: center;
     width: calc(33.333% - 20px);
 }
 
-work-item img {
+item img {
     width: 100%;
     height: auto;
     border: 2px solid #fff;
@@ -72,32 +72,24 @@ work-item img {
     transition: transform 0.3s ease;
 }
 
-work-item img:hover {
+item img:hover {
     transform: scale(1.05);
 }
 
-work-item h3 {
+item h3 {
     margin-top: 10px;
     font-size: 1.2em;
 }
 
-work-item h3 a {
+item h3 a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-work-item h3 a:hover {
+item h3 a:hover {
     color: #ddd;
 }
-
-
-
-
-
-
-
-
 
 #work .work-gallery {
     display: flex;
