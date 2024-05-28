@@ -84,6 +84,27 @@ section {
     color: #ddd;
 }
 
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons :hover {
+    color: #ddd;
+}
+
 #about .about-content {
     display: flex;
     align-items: center;
