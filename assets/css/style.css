@@ -52,45 +52,6 @@ h1, h2 {
     margin-bottom: 40px;
 }
 
-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-item {
-    text-align: center;
-    width: calc(33.333% - 20px);
-}
-
-item img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-item img:hover {
-    transform: scale(1.05);
-}
-
-item h3 {
-    margin-top: 10px;
-    font-size: 1.2em;
-}
-
-item h3 a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-item h3 a:hover {
-    color: #ddd;
-}
-
 #work .work-gallery {
     display: flex;
     flex-wrap: wrap;
